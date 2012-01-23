@@ -93,7 +93,7 @@ fi
 if [ "$#" -gt "0" ]; then
     roundup_plans="$@"
 else
-    roundup_plans="$(find *-test.sh)"
+    roundup_plans="$(find test/*-test.sh)"
 fi
 
 # Create a temporary storage place for test output to be retrieved for display
