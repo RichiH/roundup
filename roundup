@@ -250,7 +250,7 @@ roundup_summarize() {
         esac
     done
 
-    if [ "$formatter" = "progress" ]; then
+    if [ "x$formatter" = 'xprogress' ]; then
         i=0 j=0
         echo
 
