@@ -89,7 +89,7 @@ fi
 
 # Consider all scripts with names matching `*-test.sh` the plans to run unless
 # otherwise specified as arguments.
-if [ "$#" -gt "0" ]; then
+if [ "$#" -gt '0' ]; then
     roundup_plans="$@"
 else
     roundup_plans="$(find test/*-test.sh)"
