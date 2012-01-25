@@ -6,7 +6,7 @@ roundup(5) -- test-plan file format for roundup(1)
 
 ## SYNOPSIS
 
-  my-utility-test.sh
+  my-utility.roundup
 
 ## DESCRIPTION
 
@@ -33,8 +33,8 @@ roundup(5) -- test-plan file format for roundup(1)
   cleaning up the file system or any environmental changes that may trip up
   tests.
 
-  For a complete working example, see [roundup-5-test.sh][r5t] and
-  [roundup-1-test.sh][r1t]
+  For a complete working example, see [roundup-5.roundup][r5t] and
+  [roundup-1.roundup][r1t]
 
 ## BUGS
 
